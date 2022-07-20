@@ -1,0 +1,369 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "房e点",
+				"navigationBarTextStyle": "#ffffff",
+				"navigationBarBackgroundColor": "#f8ad44"
+			}
+		},
+		// #ifdef MP-WEIXIN
+			{
+				"path": "pages/web/index",
+				"style": {
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path": "pages/my/index",
+				"style": {
+					"navigationBarTitleText": "个人中心",
+					"navigationStyle": "custom"
+				}
+			},
+		// #endif
+		// #ifdef MP-TOUTIAO
+			{
+				"path": "pages/web/index",
+				"style": {
+					"navigationStyle": "default"
+				}
+			},
+			{
+				"path": "pages/my/index",
+				"style": {
+					"navigationBarTitleText": "个人中心",
+					"navigationStyle": "default"
+				}
+			},
+		// #endif
+		{
+			"path": "pages/my/my_collection",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/my/my_history",
+			"style": {
+				"navigationBarTitleText": "我的浏览"
+			}
+		},
+		{
+			"path": "pages/my/my_appointment",
+			"style": {
+				"navigationBarTitleText": "我的预约"
+			}
+		},
+		{
+			"path": "pages/my/my_aboutus",
+			"style": {
+				"navigationBarTitleText": "关于房e点"
+			}
+		},
+		{
+			"path": "pages/my/my_yonghuxieyi",
+			"style": {
+				"navigationBarTitleText": "用户服务协议"
+			}
+		},
+		{
+			"path": "pages/my/my_mianzeshengming",
+			"style": {
+				"navigationBarTitleText": "免责声明"
+			}
+		},
+		{
+			"path": "pages/my/my_yinsizengce",
+			"style": {
+				"navigationBarTitleText": "隐私政策"
+			}
+		},
+		{
+			"path": "pages/my/my_score",
+			"style": {
+				"navigationBarTitleText": "我的积分"
+			}
+		},
+		{
+			"path": "pages/my/my_setting",
+			"style": {
+				"navigationBarTitleText": "设置中心"
+			}
+		},
+		{
+			"path": "pages/my/my_guanzhu",
+			"style": {
+				"navigationBarTitleText": "关注公众号",
+				"navigationBarTextStyle": "#ffffff",
+				"navigationBarBackgroundColor": "#f6b84f"
+			}
+		},
+		{
+			"path": "pages/my/my_zhaofang",
+			"style": {
+				"navigationBarTitleText": "帮我找房",
+				"navigationBarTextStyle": "#ffffff",
+				"navigationBarBackgroundColor": "#f8ad44"
+			}
+		},
+
+		// #ifdef MP-WEIXIN
+		{
+			"path": "pages/account/login",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		
+		// #endif
+		// #ifdef MP-TOUTIAO
+		{
+			"path": "pages/account/login",
+			"style": {
+				"navigationStyle": "default"
+			}
+		},
+		
+		// #endif
+		
+		{
+			"path": "pages/account/bindUserInfo",
+			"style": {}
+		},
+		{
+			"path": "pages/project_list/map_list",
+			"style": {
+				"navigationBarTitleText": "地图找房"
+			}
+		},
+		{
+			"path": "pages/project_list/tupai_list",
+			"style": {
+				"navigationBarTitleText": "济南土拍"
+			}
+		},
+		{
+			"path": "pages/project_detail/project_index",
+			"style": {
+				"navigationBarTitleText": "楼盘详情"
+			}
+		},
+		{
+			"path": "pages/project_detail/project_saleman",
+			"style": {
+				"navigationBarTitleText": "联系置业顾问"
+			}
+		},
+		{
+			"path": "pages/project_list/tejia_list",
+			"style": {
+				"navigationBarTitleText": "特价房源"
+			}
+		},
+		{
+			"path": "pages/project_list/vr_list",
+			"style": {
+				"navigationBarTitleText": "VR看房"
+			}
+		},	
+		{
+			"path": "pages/project_list/search_list",
+			"style": {
+				"navigationBarTitleText": "搜索楼盘"
+			}
+		},
+		{
+			"path": "pages/project_list/jingpin_list",
+			"style": {
+				"navigationBarTitleText": "精品推荐"
+			}
+		},
+		{
+			"path": "pages/project_list/tupai_details",
+			"style": {
+				"navigationBarTitleText": "地块信息"
+			}
+		},
+
+		{
+			"path": "pages/project_detail/project_album",
+			"style": {
+				"navigationBarTitleText": "更多图片"
+			}
+		},
+		{
+			"path": "pages/project_detail/project_info",
+			"style": {
+				"navigationBarTitleText": "楼盘信息"
+			}
+		},
+		{
+			"path": "pages/project_detail/project_comment",
+			"style": {
+				"navigationBarTitleText": "楼盘评论"
+			}
+		},
+		{
+			"path": "pages/project_detail/project_peitao_map",
+			"style": {
+				"navigationBarTitleText": "楼盘配套"
+			}
+		},
+		{
+			"path": "pages/project_detail/appointment",
+			"style": {
+				"navigationBarTitleText": "预约看房"
+			}
+		},
+		{
+			"path": "pages/calculator/index/index",
+			"style": {
+				"navigationBarTitleText": "房贷计算器"
+			}
+		},
+		{
+			"path": "pages/calculator/pay/index",
+			"style": {
+				"navigationBarTitleText": "房贷计算器"
+			}
+		},
+		{
+			"path": "pages/calculator/all-pay/index",
+			"style": {
+				"navigationBarTitleText": "房贷计算器"
+			}
+		},
+		{
+			"path": "pages/home/search",
+			"style": {
+				"navigationBarTitleText": "搜索楼盘"
+			}
+		},
+		{
+			"path": "pages/activity/index",
+			"style": {
+				"navigationBarTitleText": "活动"
+			}
+		},
+		{
+			"path": "pages/activity/detail",
+			"style": {
+				"navigationBarTitleText": "活动详情"
+			}
+		},
+		{
+			"path": "pages/activity/apply",
+			"style": {
+				"navigationBarTitleText": "活动报名"
+			}
+		},
+		{
+			"path": "pages/im/contacts_tabbar",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/im/contacts",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "pagesA",
+			"pages": [{
+					"path": "news/new_list",
+					"style": {
+						"navigationBarTitleText": "楼市资讯"
+					}
+				},
+				{
+					"path": "news/new_details",
+					"style": {
+						"navigationBarTitleText": "楼市头条"
+					}
+				},
+				{
+					"path": "im/chat2user",
+					"style": {
+						"navigationBarTitleText": "和用户对话"
+					}
+				},
+				{
+					"path": "im/chat2employee",
+					"style": {
+						"navigationBarTitleText": "联系置业顾问"
+					}
+				},
+				{
+					"path": "house_type/house_type_detail",
+					"style": {
+						"navigationBarTitleText": "户型"
+					}
+				},
+				{
+					"path": "saleman/sale_man_card",
+					"style": {
+						"navigationBarTitleText": "置业顾问名片"
+					}
+				},
+				{
+					"path": "saleman/identity_auth",
+					"style": {
+						"navigationBarTitleText": "置业顾问认证"
+					}
+				},
+				{
+					"path": "h5/index",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				}
+			]
+		},
+		{
+			"root": "pagesC/",
+			"pages": []
+		}
+	],
+	"tabBar": {
+		"color": "#a8a8a8",
+		"selectedColor": "#ee8f21",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/tabbar/tb_1.png",
+				"selectedIconPath": "static/tabbar/tb_1_cur.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/my/my_collection",
+				"iconPath": "static/tabbar/tb_2.png",
+				"selectedIconPath": "static/tabbar/tb_2_cur.png",
+				"text": "收藏"
+			},
+			{
+				"pagePath": "pages/im/contacts_tabbar",
+				"iconPath": "static/tabbar/tb_4.png",
+				"selectedIconPath": "static/tabbar/tb_4_cur.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/tabbar/tb_3.png",
+				"selectedIconPath": "static/tabbar/tb_3_cur.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "房e点",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#000000"
+	}
+}
